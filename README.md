@@ -18,3 +18,7 @@ gcc Parser.c -o Parser
 
 ```
 This project can also be used as a module simply by importing the *Parser.c* and *Parser.h* files into your project directory, including the header file and compiling with the *Parser.c* file.
+
+```bash
+gcc {your_main_file.c} Parser.c -o {your_output_file_name}
+```
